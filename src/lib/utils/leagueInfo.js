@@ -24,7 +24,7 @@ https://github.com/nmelhado/league-page/blob/master/TRAINING_WHEELS.md#ii-adding
 
 export const managers = [
       {
-       "roster": 1,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
+       "managerID": "464633755202482176",  // the user's manager ID, go to https://api.sleeper.app/v1/league/<your_league_id>/users to find user IDs (you can use older leagueIDs to find user IDs for managers that are no longer in the league)
        "name": "Logan Whaley",
        "location": "Jonesboro, AR", // (optional)
        "bio": "Reigning Champ, humble Commish.",
@@ -44,9 +44,8 @@ export const managers = [
        "preferredContact": "Text", // 'Text', 'WhatsApp', 'Sleeper', 'Email', 'Phone', 'Discord', and 'Carrier Pigeon' are currently supplied in the template
      },
       {
-       "roster": 2,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
+       "managerID": "297110221052993536",  // the user's manager ID, go to https://api.sleeper.app/v1/league/<your_league_id>/users to find user IDs (you can use older leagueIDs to find user IDs for managers that are no longer in the league)
        "name": "Donny Turner",
-       "tookOver": 2020, // (optional) used if a manager took over a team, delete this line or change to null otherwise
        "location": "Brooklyn", // (optional)
        "bio": "Lorem ipsum...",
        "photo": "/managers/name.jpg", // square ratio recommended (no larger than 500x500)
@@ -66,7 +65,7 @@ export const managers = [
        "preferredContact": "Text", // 'Text', 'WhatsApp', 'Sleeper', 'Email', 'Phone', 'Discord', and 'Carrier Pigeon' are currently supplied in the template
      },
      {
-       "roster": 3,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
+       "managerID": "70980290148298752",  // the user's manager ID, go to https://api.sleeper.app/v1/league/<your_league_id>/users to find user IDs (you can use older leagueIDs to find user IDs for managers that are no longer in the league)
        "name": "Bennett Wilson",
        "location": "Somewhere", // (optional)
        "bio": "My name is Bennett Wilson.",
@@ -83,9 +82,8 @@ export const managers = [
        "preferredContact": "Sleeper", // 'Text', 'WhatsApp', 'Sleeper', 'Email', 'Phone', 'Discord', and 'Carrier Pigeon' are currently supplied in the template
      },
      {
-       "roster": 4,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
+       "managerID": "509989350945984512",  // the user's manager ID, go to https://api.sleeper.app/v1/league/<your_league_id>/users to find user IDs (you can use older leagueIDs to find user IDs for managers that are no longer in the league)
        "name": "Luke Glidewell",
-       "tookOver": 2020, // (optional) used if a manager took over a team, delete this line or change to null otherwise
        "location": "Brooklyn", // (optional)
        "bio": "Lorem ipsum...",
        "photo": "/managers/name.jpg", // square ratio recommended (no larger than 500x500)
@@ -105,9 +103,8 @@ export const managers = [
        "preferredContact": "Text", // 'Text', 'WhatsApp', 'Sleeper', 'Email', 'Phone', 'Discord', and 'Carrier Pigeon' are currently supplied in the template
      },
      {
-       "roster": 5,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
+       "managerID": "83782404170727424",  // the user's manager ID, go to https://api.sleeper.app/v1/league/<your_league_id>/users to find user IDs (you can use older leagueIDs to find user IDs for managers that are no longer in the league)
        "name": "Justin Dyer",
-       "tookOver": 2020, // (optional) used if a manager took over a team, delete this line or change to null otherwise
        "location": "Brooklyn", // (optional)
        "bio": "Lorem ipsum...",
        "photo": "/managers/name.jpg", // square ratio recommended (no larger than 500x500)
@@ -127,14 +124,13 @@ export const managers = [
        "preferredContact": "Text", // 'Text', 'WhatsApp', 'Sleeper', 'Email', 'Phone', 'Discord', and 'Carrier Pigeon' are currently supplied in the template
      },
      {
-       "roster": 6,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
+       "managerID": "603795504417026048",  // the user's manager ID, go to https://api.sleeper.app/v1/league/<your_league_id>/users to find user IDs (you can use older leagueIDs to find user IDs for managers that are no longer in the league)
        "name": "Sam Kiehl",
-       "tookOver": 2020, // (optional) used if a manager took over a team, delete this line or change to null otherwise
-       "location": "Brooklyn", // (optional)
+       "location": "Everywhere", // (optional)
        "bio": "Lorem ipsum...",
        "photo": "/managers/name.jpg", // square ratio recommended (no larger than 500x500)
        "fantasyStart": 2014, // (optional) when did the manager start playing fantasy football
-       "favoriteTeam": "nyj", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
+       "favoriteTeam": "ari", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
        "mode": "Win Now", // (optional) 'Win Now', 'Dynasty', or 'Rebuild' (anything else and you will need to add a new png to /static/ similar to the 'Rebuild.png' and 'Win Now.png' currently in there)
        "rival": {
          name: "Rival", // Can be anything (usually your rival's name)
@@ -149,14 +145,13 @@ export const managers = [
        "preferredContact": "Text", // 'Text', 'WhatsApp', 'Sleeper', 'Email', 'Phone', 'Discord', and 'Carrier Pigeon' are currently supplied in the template
      },
      {
-       "roster": 7,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
+       "managerID": "510010739824558080",  // the user's manager ID, go to https://api.sleeper.app/v1/league/<your_league_id>/users to find user IDs (you can use older leagueIDs to find user IDs for managers that are no longer in the league)
        "name": "Matthew Van Neste",
-       "tookOver": 2020, // (optional) used if a manager took over a team, delete this line or change to null otherwise
-       "location": "Brooklyn", // (optional)
+       "location": "Savannah, TN", // (optional)
        "bio": "Lorem ipsum...",
        "photo": "/managers/name.jpg", // square ratio recommended (no larger than 500x500)
        "fantasyStart": 2014, // (optional) when did the manager start playing fantasy football
-       "favoriteTeam": "nyj", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
+       "favoriteTeam": "gb", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
        "mode": "Win Now", // (optional) 'Win Now', 'Dynasty', or 'Rebuild' (anything else and you will need to add a new png to /static/ similar to the 'Rebuild.png' and 'Win Now.png' currently in there)
        "rival": {
          name: "Rival", // Can be anything (usually your rival's name)
@@ -171,10 +166,9 @@ export const managers = [
        "preferredContact": "Text", // 'Text', 'WhatsApp', 'Sleeper', 'Email', 'Phone', 'Discord', and 'Carrier Pigeon' are currently supplied in the template
      },
      {
-       "roster": 8,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
+       "managerID": "378434108407218176",  // the user's manager ID, go to https://api.sleeper.app/v1/league/<your_league_id>/users to find user IDs (you can use older leagueIDs to find user IDs for managers that are no longer in the league)
        "name": "Braden Smith",
-       "tookOver": 2020, // (optional) used if a manager took over a team, delete this line or change to null otherwise
-       "location": "Brooklyn", // (optional)
+       "location": "Yo Momma's House", // (optional)
        "bio": "Lorem ipsum...",
        "photo": "/managers/name.jpg", // square ratio recommended (no larger than 500x500)
        "fantasyStart": 2014, // (optional) when did the manager start playing fantasy football
@@ -193,9 +187,8 @@ export const managers = [
        "preferredContact": "Text", // 'Text', 'WhatsApp', 'Sleeper', 'Email', 'Phone', 'Discord', and 'Carrier Pigeon' are currently supplied in the template
      },
      {
-       "roster": 9,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
+       "managerID": "650592316851068928",  // the user's manager ID, go to https://api.sleeper.app/v1/league/<your_league_id>/users to find user IDs (you can use older leagueIDs to find user IDs for managers that are no longer in the league)
        "name": "Bryant Wooters",
-       "tookOver": 2020, // (optional) used if a manager took over a team, delete this line or change to null otherwise
        "location": "Brooklyn", // (optional)
        "bio": "Lorem ipsum...",
        "photo": "/managers/name.jpg", // square ratio recommended (no larger than 500x500)
@@ -215,9 +208,8 @@ export const managers = [
        "preferredContact": "Text", // 'Text', 'WhatsApp', 'Sleeper', 'Email', 'Phone', 'Discord', and 'Carrier Pigeon' are currently supplied in the template
      },
      {
-       "roster": 10,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
+       "managerID": "513089397595480064",  // the user's manager ID, go to https://api.sleeper.app/v1/league/<your_league_id>/users to find user IDs (you can use older leagueIDs to find user IDs for managers that are no longer in the league)
        "name": "Trevor Fox",
-       "tookOver": 2020, // (optional) used if a manager took over a team, delete this line or change to null otherwise
        "location": "Brooklyn", // (optional)
        "bio": "Lorem ipsum...",
        "photo": "/managers/name.jpg", // square ratio recommended (no larger than 500x500)
@@ -237,9 +229,9 @@ export const managers = [
        "preferredContact": "Text", // 'Text', 'WhatsApp', 'Sleeper', 'Email', 'Phone', 'Discord', and 'Carrier Pigeon' are currently supplied in the template
      },
      {
-       "roster": 11,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
+       "managerID": "471440976666161152",  // the user's manager ID, go to https://api.sleeper.app/v1/league/<your_league_id>/users to find user IDs (you can use older leagueIDs to find user IDs for managers that are no longer in the league)
        "name": "Nathan Van Neste",
-       "tookOver": 2020, // (optional) used if a manager took over a team, delete this line or change to null otherwise
+       "tookOver": 2023, // (optional) used if a manager took over a team, delete this line or change to null otherwise
        "location": "Brooklyn", // (optional)
        "bio": "Lorem ipsum...",
        "photo": "/managers/name.jpg", // square ratio recommended (no larger than 500x500)
@@ -259,9 +251,8 @@ export const managers = [
        "preferredContact": "Text", // 'Text', 'WhatsApp', 'Sleeper', 'Email', 'Phone', 'Discord', and 'Carrier Pigeon' are currently supplied in the template
      },
      {
-       "roster": 12,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
+       "managerID": "661389230441848832",  // the user's manager ID, go to https://api.sleeper.app/v1/league/<your_league_id>/users to find user IDs (you can use older leagueIDs to find user IDs for managers that are no longer in the league)
        "name": "Devon Clark",
-       "tookOver": 2020, // (optional) used if a manager took over a team, delete this line or change to null otherwise
        "location": "Brooklyn", // (optional)
        "bio": "Lorem ipsum...",
        "photo": "/managers/name.jpg", // square ratio recommended (no larger than 500x500)
