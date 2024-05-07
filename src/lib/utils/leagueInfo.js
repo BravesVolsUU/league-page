@@ -10,7 +10,12 @@ export const homepageText = `
   <p>Welcome to the league!</p>
   <p>The league started as a home redraft league by several Union University students, and it's now evolved into a dynasty league with UU alum and non-UU folks alike! (The non UU folks are somewhat decent, in my opinion)</p>
   <p>Separated into two conferences, Chick-Fil-A and Zaxby's based on a legit debate, the Draft Day league kicked off in 2021, where Donny was the inaugural champion</p>
-  <p>Logan is the humble commish and the reigning champion.</p>
+  <p>Logan is the humble commish. Braden is the reigning champion after beating Logan in the 2023 Championship Game 149.9-124.82.</p>
+  <p>Draft Day Champions</p>
+  <p>* 2023: Braden
+* 2022: Logan
+* 2021: Donny
+</p>
 `;
 
 /*   STEP 3   */
@@ -28,7 +33,7 @@ export const managers = [
        "managerID": "464633755202482176",  // the user's manager ID, go to https://api.sleeper.app/v1/league/<your_league_id>/users to find user IDs (you can use older leagueIDs to find user IDs for managers that are no longer in the league)
        "name": "Logan Whaley",
        "location": "In his office", // (optional)
-       "bio": "Reigning Champ, humble Commish.",
+       "bio": "2022 Champ, humble Commish.",
        "photo": "/managers/logan2.jpg", // square ratio recommended (no larger than 500x500)
        "favoriteTeam": "ten", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
        "mode": "Win Now", // (optional) 'Win Now', 'Dynasty', or 'Rebuild' (anything else and you will need to add a new png to /static/ similar to the 'Rebuild.png' and 'Win Now.png' currently in there)
