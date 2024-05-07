@@ -12,10 +12,9 @@ export const homepageText = `
   <p>Separated into two conferences, Chick-Fil-A and Zaxby's based on a legit debate, the Draft Day league kicked off in 2021, where Donny was the inaugural champion</p>
   <p>Logan is the humble commish. Braden is the reigning champion after beating Logan in the 2023 Championship Game 149.9-124.82.</p>
   <p>Draft Day Champions</p>
-  <p>* 2023: Braden
-* 2022: Logan
-* 2021: Donny
-</p>
+  <p>    2023: Braden</p>
+  <p>    2022: Logan</p>
+  <p>    2021: Donny</p>
 `;
 
 /*   STEP 3   */
