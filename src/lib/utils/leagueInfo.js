@@ -1,5 +1,5 @@
 /*   STEP 1   */
-export const leagueID = "1048297252021735424"; // your league ID
+export const leagueID = "1180220458015657984"; // your league ID
 export const leagueName = "Draft Day Dynasty"; // your league name
 export const dues = 10; // (optional) used in template constitution page
 export const dynasty = true; // true for dynasty leagues, false for redraft and keeper
@@ -10,8 +10,9 @@ export const homepageText = `
   <p>Welcome to the league!</p>
   <p>The league started as a home redraft league by several Union University students, and it's now evolved into a dynasty league with UU alum and non-UU folks alike! (The non UU folks are somewhat decent, in my opinion)</p>
   <p>Separated into two conferences, Chick-Fil-A and Zaxby's based on a legit debate, the Draft Day league kicked off in 2021, where Donny was the inaugural champion</p>
-  <p>Logan is the humble commish. Braden is the reigning champion after beating Logan in the 2023 Championship Game 149.9-124.82.</p>
+  <p>Logan is the humble commish and reigning champion.</p>
   <p>Draft Day Champions</p>
+  <p>    2024: Logan</p>
   <p>    2023: Braden</p>
   <p>    2022: Logan</p>
   <p>    2021: Donny</p>
