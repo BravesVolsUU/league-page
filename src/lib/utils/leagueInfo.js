@@ -1,5 +1,5 @@
 /*   STEP 1   */
-export const leagueID = "1180220458015657984"; // your league ID
+export const leagueID = "1312117729985064960"; // your league ID
 export const leagueName = "Draft Day Dynasty"; // your league name
 export const dues = 10; // (optional) used in template constitution page
 export const dynasty = true; // true for dynasty leagues, false for redraft and keeper
@@ -12,6 +12,7 @@ export const homepageText = `
   <p>Separated into two conferences, Chick-Fil-A and Zaxby's based on a legit debate, the Draft Day league kicked off in 2021, where Donny was the inaugural champion</p>
   <p>Logan is the humble commish and reigning champion.</p>
   <p>Draft Day Champions</p>
+  <p>    2025: Logan</p>
   <p>    2024: Logan</p>
   <p>    2023: Braden</p>
   <p>    2022: Logan</p>
@@ -33,7 +34,7 @@ export const managers = [
        "managerID": "464633755202482176",  // the user's manager ID, go to https://api.sleeper.app/v1/league/<your_league_id>/users to find user IDs (you can use older leagueIDs to find user IDs for managers that are no longer in the league)
        "name": "Logan Whaley",
        "location": "In his office", // (optional)
-       "bio": "2022 Champ, humble Commish.",
+       "bio": "3x Champ, humble Commish.",
        "photo": "/managers/logan2.jpg", // square ratio recommended (no larger than 500x500)
        "favoriteTeam": "ten", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
        "mode": "Win Now", // (optional) 'Win Now', 'Dynasty', or 'Rebuild' (anything else and you will need to add a new png to /static/ similar to the 'Rebuild.png' and 'Win Now.png' currently in there)
@@ -219,7 +220,7 @@ export const managers = [
      //  "roster": 10,  // (DEPRECATED! Don't use this anymore) ID of the roster that the manager manages (look at the order of the power rankings graph)
        "managerID": "513089397595480064",  // the user's manager ID, go to https://api.sleeper.app/v1/league/<your_league_id>/users to find user IDs (you can use older leagueIDs to find user IDs for managers that are no longer in the league)
        "name": "Trevor Fox",
-       "location": "Flo Rida", // (optional)
+       "location": "Cheeseland", // (optional)
        "bio": "Loves Disney, Christmas and destroying his fantasy football opponents.",
        "photo": "/managers/trevor.jpeg", // square ratio recommended (no larger than 500x500)
        "favoriteTeam": "gb", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
